@@ -6,7 +6,7 @@ class DBconnect(object):
         host= "localhost",
         port=int(3306),
         user="root",
-        passwd="Thinhnguyen2491") # Change the password to your own MySQL password
+        passwd="YourPassword") # Change the password to your own MySQL password
         
         self.dbcursor = self.dbconnection.cursor()
 
